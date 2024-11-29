@@ -14,7 +14,7 @@ export default function Task({ task, onDeleteTask, onToggleTask }) {
           onChange={() => onToggleTask(task.id)}
         />
         {task.description}{" "}
-        <button onClick={() => onDeleteTask(task.id)}>🚮</button>
+        <button onClick={() => onDeleteTask(task.id)}>Delete</button>
       </li>
     );
   }

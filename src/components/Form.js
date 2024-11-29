@@ -28,7 +28,7 @@ export default function Form({ onAddTask }) {
         onChange={(e) => setDescription(e.target.value)}
       />
 
-      <button type="submit">Add</button>
+      <button type="submit">Add Task</button>
     </form>
   );
 }
